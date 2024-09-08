@@ -1,0 +1,28 @@
+@import "../../../app/styles/colors";
+
+.successMessage {
+  border-radius: 8px;
+  border: 2px solid $dark-green;
+  padding: 24px;
+  height: fit-content;
+  margin-bottom: 8px;
+  background: $light-green;
+}
+
+.errorMessage {
+  border-radius: 8px;
+  border: 2px solid $dark-red;
+  padding: 24px;
+  height: fit-content;
+  margin-bottom: 8px;
+  background: $light-red;
+}
+
+.infoMessage {
+  border-radius: 8px;
+  border: 2px solid $dark-blue;
+  padding: 24px;
+  height: fit-content;
+  margin-bottom: 8px;
+  background: $light-blue;
+}

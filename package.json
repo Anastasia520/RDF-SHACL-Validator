@@ -1,0 +1,44 @@
+{
+  "name": "shacl-data-validation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8000",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/lab": "^6.0.0-beta.9",
+    "@mui/material": "^6.0.2",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@uiw/react-textarea-code-editor": "^3.0.2",
+    "axios": "^1.7.7",
+    "js-base64": "^3.7.7",
+    "jsonld": "^8.3.2",
+    "n3": "^1.21.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-redux": "^7.2.6",
+    "sass": "^1.78.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/jsonld": "^1.5.15",
+    "@types/n3": "^1.21.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  }
+}

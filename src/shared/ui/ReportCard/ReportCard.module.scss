@@ -1,0 +1,13 @@
+@import "../../../app/styles/colors";
+
+.reportCard {
+  border-radius: 8px;
+  border: 2px solid;
+  padding: 24px;
+  height: fit-content;
+  margin-bottom: 8px;
+}
+
+.textLine {
+  display: flex;
+}

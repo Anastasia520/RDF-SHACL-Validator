@@ -1,0 +1,22 @@
+.RDFValidateSHACLFormContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.RDFValidateSHACLForm {
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  width: 50%;
+}
+
+.validateBtnContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
