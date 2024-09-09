@@ -1,0 +1,10 @@
+services:
+  api:
+    image: caviri/shaclapi:latest
+    ports:
+      - 8501:15400
+
+  frontend:
+    image: anastasia520/rdf-shacl-validator:latest
+    ports:
+      - 8000:8000

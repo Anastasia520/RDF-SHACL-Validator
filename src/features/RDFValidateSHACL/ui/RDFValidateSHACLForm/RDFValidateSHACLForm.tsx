@@ -72,7 +72,7 @@ export const RDFValidateSHACLForm = () => {
 
           <div className={cls.container}>
             <FileInputForm
-              label="Choose the SHACLE shape or type it manually. Validator supports .ttl file format only."
+              label="Choose the SHACL shape or type it manually. Validator supports .ttl file format only."
               handleUpload={handleSHACLUpload}
               value={shaclData}
             />

@@ -20,7 +20,7 @@ This project is a web application built using React and Vite that allows users t
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/Anastasia520/RDF-SHACL-Validator.git
-    cd rdf-shacl-validator
+    cd RDF-SHACL-Validator
     ```
 
 2. **Install Dependencies**:
@@ -34,3 +34,37 @@ This project is a web application built using React and Vite that allows users t
     ```
 
 4. Open the app in your browser by visiting: `http://localhost:8000`
+
+## Building a Docker image
+
+```bash
+docker build -t anastasia520/rdf-shacl-validator:latest .
+```
+
+## Running API and frontend using Docker Compose
+
+You can use the provided `docker-compose.yml` to run the API and frontend together.
+
+Please note that you need to build the `caviri/shaclapi:latest` Docker image following the instructions in [this repository](https://github.com/Anastasia520/shacl-api) beforehand. It has the CORS headers enabling the origin `http://localhost:8000` added. 
+
+Once you have built both containers, you can verify that they are available with:
+
+```bash
+docker images
+```
+
+The output should be something like:
+
+```
+REPOSITORY                           TAG             IMAGE ID       CREATED         SIZE
+caviri/shaclapi                      latest          9507107b572f   5 minutes ago   1.03GB
+anastasia520/rdf-shacl-validator     latest          a2507d6ccf3a   7 minutes ago   309MB
+```
+
+Finally, to run the validator with frontend, you can use:
+
+```bash
+docker compose up
+```
+
+NOTE: Some older versions of Docker require using `docker-compose up` instead.
