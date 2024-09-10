@@ -68,3 +68,7 @@ docker compose up
 ```
 
 NOTE: Some older versions of Docker require using `docker-compose up` instead.
+
+## Demo
+![demo](https://github.com/user-attachments/assets/246e2df2-d64f-452b-9d7f-c7e927075cbb)
+
